@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller(value ="loginControllerOfAdmin" )
 public class LoginController {
-	@RequestMapping(value = "/dang-nhap", method = RequestMethod.GET)
+	@RequestMapping(value = "login", method = RequestMethod.GET)
 	   public ModelAndView homePage() {
 	      ModelAndView mav = new ModelAndView("admin/login/index");
 	      return mav;
